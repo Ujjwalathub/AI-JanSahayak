@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "google_api_key": "YOUR_GOOGLE_API_KEY_HERE",
+  "language": "en-IN",
+  "speech_timeout": 5,
+  "phrase_time_limit": 10,
+  "complaints_db": "complaints_db.json",
+  "system_settings": {
+    "adjust_ambient_noise": true,
+    "ambient_noise_duration": 1.0,
+    "tts_speed": "normal",
+    "tts_language": "hi",
+    "audio_engine": "pygame"
+  },
+  "features": {
+    "dual_mode_input": true,
+    "voice_mode": true,
+    "text_mode": true,
+    "always_voice_output": true
+  }
+}

@@ -1,0 +1,23 @@
+# AI-JanSahayak Version 2.0 Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core AI & NLP
+google-generativeai
+
+# Environment Variables
+python-dotenv
+
+# Speech Recognition
+SpeechRecognition
+pyaudio
+
+# Text-to-Speech
+gTTS
+
+# Audio Processing (V2.0 uses pygame instead of pydub)
+pygame
+
+# Note: FFmpeg is also required for pydub
+# Windows: Download from https://ffmpeg.org/download.html and add to PATH
+# Linux: sudo apt install ffmpeg
+# Mac: brew install ffmpeg
